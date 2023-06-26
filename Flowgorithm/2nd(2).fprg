@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Person"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-26 06:01:26 "/>
+        <attribute name="created" value="UGVyc29uO0RFU0tUT1AtRTZDSzdEQzsyMDIzLTA2LTI2OyIwNTo0Mjo0NyAiOzI4Njc="/>
+        <attribute name="edited" value="UGVyc29uO0RFU0tUT1AtRTZDSzdEQzsyMDIzLTA2LTI2OyIwNjowMToyNiAiOzE7Mjk2OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="temp" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter value for temp&quot;" newline="True"/>
+            <input variable="temp"/>
+            <if expression="temp &lt; 1">
+                <then>
+                    <output expression="&quot;Suv muzlaydi&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="temp &lt; 100">
+                        <then>
+                            <output expression="&quot;Suv qaynaydi&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Suv muzlamaydi&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

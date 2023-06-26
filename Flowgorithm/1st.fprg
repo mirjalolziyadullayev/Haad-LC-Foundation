@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Person"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-20 05:51:51 "/>
+        <attribute name="created" value="UGVyc29uO0RFU0tUT1AtRTZDSzdEQzsyMDIzLTA2LTIwOyIwNTozODo0NiAiOzI4NjU="/>
+        <attribute name="edited" value="UGVyc29uO0RFU0tUT1AtRTZDSzdEQzsyMDIzLTA2LTIwOyIwNTo1MTo1MSAiOzE7Mjk2NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="name" type="String" array="False" size=""/>
+            <declare name="lastName" type="String" array="False" size=""/>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter your name:&quot;" newline="True"/>
+            <input variable="name"/>
+            <output expression="&quot;Enter your last name&quot;" newline="True"/>
+            <input variable="lastName"/>
+            <output expression="&quot;Enter your age:&quot;" newline="True"/>
+            <input variable="age"/>
+            <output expression="&quot;Hello &quot;&amp;name&amp;&quot; &quot;&amp;lastName&amp;&quot;. Your age: &quot;&amp;age" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
