@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Person"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-26 06:58:38 "/>
+        <attribute name="created" value="UGVyc29uO0RFU0tUT1AtRTZDSzdEQzsyMDIzLTA2LTI2OyIwNjowOTo0NyAiOzI4NzE="/>
+        <attribute name="edited" value="UGVyc29uO0RFU0tUT1AtRTZDSzdEQzsyMDIzLTA2LTI2OyIwNjo1ODozOCAiOzE7Mjk4Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="son" type="Integer" array="False" size=""/>
+            <input variable="son"/>
+            <if expression="son&gt;=0">
+                <then>
+                    <if expression="son%2=0">
+                        <then>
+                            <output expression="&quot;Juft son&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Toq son&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Manfiy son&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

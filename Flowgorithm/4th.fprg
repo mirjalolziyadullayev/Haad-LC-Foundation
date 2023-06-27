@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Person"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-26 07:43:29 "/>
+        <attribute name="created" value="UGVyc29uO0RFU0tUT1AtRTZDSzdEQzsyMDIzLTA2LTI2OyIwNjo1OTo1NyAiOzI4Nzc="/>
+        <attribute name="edited" value="UGVyc29uO0RFU0tUT1AtRTZDSzdEQzsyMDIzLTA2LTI2OyIwNzo0MzoyOSAiOzE7Mjk3OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Real" array="False" size=""/>
+            <declare name="b" type="Real" array="False" size=""/>
+            <output expression="&quot;Son kiriting A&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Son kiriting B&quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="a&lt;=0 || b&lt;=0">
+                <then>
+                    <output expression="&quot;Faqat musbat son kiritish mumkin&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Perimeter = &quot; &#13;&#10;&amp; &#13;&#10;2*(a+b)" newline="True"/>
+                    <output expression="&quot;Yuza = &quot; &#13;&#10;&amp; &#13;&#10;a*b" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

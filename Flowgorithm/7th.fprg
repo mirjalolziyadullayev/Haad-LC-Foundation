@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Person"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-26 08:24:33 "/>
+        <attribute name="created" value="UGVyc29uO0RFU0tUT1AtRTZDSzdEQzsyMDIzLTA2LTI2OyIwODoxMjo0MSAiOzI4NjE="/>
+        <attribute name="edited" value="UGVyc29uO0RFU0tUT1AtRTZDSzdEQzsyMDIzLTA2LTI2OyIwODoyNDozMyAiOzE7Mjk3Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kg" type="Integer" array="False" size=""/>
+            <declare name="miqdor" type="Integer" array="False" size=""/>
+            <output expression="&quot;Konfet narxini kiriting&quot;" newline="True"/>
+            <input variable="miqdor"/>
+            <output expression="&quot;Konfet kg ni kiriting&quot;" newline="True"/>
+            <input variable="kg"/>
+            <if expression="kg&gt;10">
+                <then>
+                    <output expression="&quot;konfet kg 10dan oshgani uchun sizga yarim narxda &quot; &amp; kg/miqdor &amp; &quot;bo'ldi&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="kg &amp; &quot;Konfet &quot; &amp; kg*miqdor &amp; &quot;bo'ldi&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
