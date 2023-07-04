@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Person"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-04 09:34:00 AM"/>
+        <attribute name="created" value="UGVyc29uO0RFU0tUT1AtRTZDSzdEQzsyMDIzLTA2LTI3OyIxMDozMTo1MSAiOzI4NTc="/>
+        <attribute name="edited" value="UGVyc29uO0RFU0tUT1AtRTZDSzdEQzsyMDIzLTA2LTI3OyIxMDo1Nzo1NCAiOzE7Mjk3Ng=="/>
+        <attribute name="edited" value="VXNlcjtXSU4tT0o5R1JHQjdUNkM7MjAyMy0wNy0wNDswOTozNDowMCBBTTs0OzI4MzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="50"/>
+            <assign variable="b" expression="20"/>
+            <assign variable="c" expression="30"/>
+            <if expression="a &gt; b">
+                <then>
+                    <declare name="temp" type="Integer" array="False" size=""/>
+                    <assign variable="temp" expression="a"/>
+                    <assign variable="a" expression="b"/>
+                    <assign variable="b" expression="temp"/>
+                    <if expression="b &gt; c">
+                        <then>
+                            <declare name="temp2" type="Integer" array="False" size=""/>
+                            <assign variable="temp2" expression="b"/>
+                            <assign variable="b" expression="c"/>
+                            <assign variable="c" expression="temp2"/>
+                        </then>
+                        <else/>
+                    </if>
+                    <output expression="a" newline="True"/>
+                    <output expression="b" newline="True"/>
+                    <output expression="c" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;not necessary&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

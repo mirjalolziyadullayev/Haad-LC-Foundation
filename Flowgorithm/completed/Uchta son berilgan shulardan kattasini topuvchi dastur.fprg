@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Person"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-27 10:59:13 "/>
+        <attribute name="created" value="UGVyc29uO0RFU0tUT1AtRTZDSzdEQzsyMDIzLTA2LTI3OyIwOTo0NjoxNiAiOzI4NzI="/>
+        <attribute name="edited" value="UGVyc29uO0RFU0tUT1AtRTZDSzdEQzsyMDIzLTA2LTI3OyIxMDo1OToxMyAiOzQ7Mjk3Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="son1" type="Integer" array="False" size=""/>
+            <declare name="son2" type="Integer" array="False" size=""/>
+            <declare name="son3" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter number 1:&quot;" newline="True"/>
+            <input variable="son1"/>
+            <output expression="&quot;Enter number 2:&quot;" newline="True"/>
+            <input variable="son2"/>
+            <output expression="&quot;Enter number 3:&quot;" newline="True"/>
+            <input variable="son3"/>
+            <if expression="son1&gt;son2">
+                <then>
+                    <if expression="son1&gt;son3">
+                        <then>
+                            <output expression="son1" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="son3" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="son2&gt;son3">
+                        <then>
+                            <output expression="son2" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="son3" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
