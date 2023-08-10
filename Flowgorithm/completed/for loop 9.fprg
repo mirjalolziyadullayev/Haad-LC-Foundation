@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Person"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-10 02:32:21 PM"/>
+        <attribute name="created" value="UGVyc29uO0RFU0tUT1AtOTc4VUJRMzsyMDIzLTA4LTEwOzAyOjA2OjA2IFBNOzI5Mzk="/>
+        <attribute name="edited" value="UGVyc29uO0RFU0tUT1AtOTc4VUJRMzsyMDIzLTA4LTEwOzAyOjMyOjIxIFBNOzM7MzA0NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <input variable="b"/>
+            <declare name="temp" type="Integer" array="False" size=""/>
+            <assign variable="temp" expression="0"/>
+            <declare name="square" type="Integer" array="False" size=""/>
+            <assign variable="square" expression="0"/>
+            <declare name="all" type="Integer" array="False" size=""/>
+            <assign variable="all" expression="0"/>
+            <for variable="temp" start="a" end="b" direction="inc" step="1">
+                <assign variable="square" expression="temp * temp"/>
+                <output expression="square" newline="True"/>
+                <assign variable="all" expression="all+square"/>
+            </for>
+            <output expression="&quot;ALL= &quot;&amp;all" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

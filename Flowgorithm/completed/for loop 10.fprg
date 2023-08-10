@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Person"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-10 02:49:11 PM"/>
+        <attribute name="created" value="UGVyc29uO0RFU0tUT1AtOTc4VUJRMzsyMDIzLTA4LTEwOzAyOjA2OjA2IFBNOzI5Mzk="/>
+        <attribute name="edited" value="UGVyc29uO0RFU0tUT1AtOTc4VUJRMzsyMDIzLTA4LTEwOzAyOjQ5OjExIFBNOzQ7MzA1Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <declare name="all" type="Real" array="False" size=""/>
+            <assign variable="all" expression="0"/>
+            <declare name="boluvchi" type="Real" array="False" size=""/>
+            <assign variable="boluvchi" expression="1"/>
+            <declare name="step" type="Integer" array="False" size=""/>
+            <for variable="step" start="1" end="n" direction="inc" step="1">
+                <assign variable="boluvchi" expression="boluvchi / step"/>
+                <assign variable="all" expression="all + boluvchi"/>
+                <output expression="boluvchi" newline="True"/>
+            </for>
+            <output expression="all" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
