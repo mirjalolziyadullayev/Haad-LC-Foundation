@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="person"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-06 09:14:29 AM"/>
+        <attribute name="created" value="cGVyc29uO0tBTEk7MjAyMy0wNy0wNTswNjo1OTowMSBQTTsyMjM2"/>
+        <attribute name="edited" value="cGVyc29uO0tBTEk7MjAyMy0wNy0wNjswOToxNDoyOSBBTTsxOzIzMzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="oy" type="Integer" array="False" size=""/>
+            <declare name="Marta" type="Integer" array="False" size=""/>
+            <input variable="oy"/>
+            <input variable="Marta"/>
+            <if expression="oy = 1">
+                <then>
+                    <if expression="Marta = 1">
+                        <then>
+                            <output expression="&quot;chegirma bor&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;yuq&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;yuq&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

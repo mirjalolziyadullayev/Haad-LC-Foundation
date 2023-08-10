@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="person"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-05 06:58:59 PM"/>
+        <attribute name="created" value="cGVyc29uO0tBTEk7MjAyMy0wNy0wNTswNjo0OTowMiBQTTsyMjM2"/>
+        <attribute name="edited" value="cGVyc29uO0tBTEk7MjAyMy0wNy0wNTswNjo1ODo1OSBQTTsxOzIzNTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sotibOlgan" type="Integer" array="False" size=""/>
+            <declare name="qarziYuq" type="Integer" array="False" size=""/>
+            <output expression="&quot;sotib olgan bolsa 1 sotib olmagan bolsa 0&quot;" newline="True"/>
+            <input variable="sotibOlgan"/>
+            <output expression="&quot;Qarzi bor bolsa 1 qarzi yuq bolsa 0&quot;" newline="True"/>
+            <input variable="qarziYuq"/>
+            <if expression="sotibOlgan = 1">
+                <then>
+                    <if expression="qarziYuq = 1">
+                        <then>
+                            <output expression="&quot;Chegirma bor&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;chegirma yuq&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;chegirma yuq&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
