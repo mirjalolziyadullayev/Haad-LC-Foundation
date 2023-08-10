@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Person"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-27 11:19:55 "/>
+        <attribute name="created" value="UGVyc29uO0RFU0tUT1AtRTZDSzdEQzsyMDIzLTA2LTI2OyIwODoyNDo0OCAiOzI4NzE="/>
+        <attribute name="edited" value="UGVyc29uO0RFU0tUT1AtRTZDSzdEQzsyMDIzLTA2LTI3OyIxMToxOTo1NSAiOzM7Mjk3OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="y" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <output expression="&quot;x kofetni kg ni kiriting&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;x konfetni narxini kiriting&quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;y konfetning kg ni kiriting&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;y konfetni narxini kiriting&quot;" newline="True"/>
+            <input variable="y"/>
+            <output expression="&quot;X konfet &quot; &amp; a &amp; a*x &amp; &quot; bo'ldi &quot;&#13;&#10;&amp;&#13;&#10;&quot;Y konfet &quot; &amp; b &amp; b*y &amp; &quot; bo'ldi &quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
