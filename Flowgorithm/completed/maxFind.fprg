@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="asadbek"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-10 08:05:33 PM"/>
+        <attribute name="created" value="YXNhZGJlaztBU0FEQkVLOzIwMjMtMDgtMTA7MDY6NTg6NDMgUE07MjQ5Mg=="/>
+        <attribute name="edited" value="YXNhZGJlaztBU0FEQkVLOzIwMjMtMDgtMTA7MDg6MDU6MzMgUE07MTsyNTkz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="array1" type="Integer" array="True" size="10"/>
+            <declare name="count" type="Integer" array="False" size=""/>
+            <assign variable="count" expression="0"/>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <while expression="count&lt;10">
+                <input variable="num"/>
+                <assign variable="array1[count]" expression="num"/>
+                <assign variable="count" expression="count+1"/>
+            </while>
+            <assign variable="count" expression="0"/>
+            <declare name="max" type="Integer" array="False" size=""/>
+            <assign variable="max" expression="0"/>
+            <while expression="count&lt;10">
+                <if expression="array1[count]&gt;max">
+                    <then>
+                        <assign variable="max" expression="array1[count]"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="count" expression="count+1"/>
+            </while>
+            <output expression="max" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
