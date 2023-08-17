@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="asadbek"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-10 07:31:14 PM"/>
+        <attribute name="created" value="YXNhZGJlaztBU0FEQkVLOzIwMjMtMDgtMTA7MDY6NTg6NDMgUE07MjQ5Mg=="/>
+        <attribute name="edited" value="YXNhZGJlaztBU0FEQkVLOzIwMjMtMDgtMTA7MDc6MzE6MTQgUE07MjsyNTkx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="array" type="Integer" array="True" size="10"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="0"/>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <while expression="i&lt;10">
+                <output expression="i+1&amp;&quot; - sonni kiring&quot;" newline="True"/>
+                <input variable="num"/>
+                <assign variable="array[i]" expression="num"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+            <declare name="array2" type="Integer" array="True" size="10"/>
+            <assign variable="i" expression="0"/>
+            <declare name="j" type="Integer" array="False" size=""/>
+            <declare name="max" type="Integer" array="False" size=""/>
+            <declare name="index" type="Integer" array="False" size=""/>
+            <while expression="i&lt;10">
+                <assign variable="j" expression="0"/>
+                <assign variable="max" expression="array[0]"/>
+                <assign variable="index" expression="0"/>
+                <while expression="j&lt;10">
+                    <if expression="array[j]&gt;max">
+                        <then>
+                            <assign variable="max" expression="array[j]"/>
+                            <assign variable="index" expression="j"/>
+                        </then>
+                        <else/>
+                    </if>
+                    <assign variable="j" expression="j+1"/>
+                </while>
+                <assign variable="array[index]" expression="-1"/>
+                <assign variable="array2[i]" expression="max"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+            <assign variable="i" expression="0"/>
+            <while expression="i&lt;10">
+                <output expression="array2[i]" newline="True"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
