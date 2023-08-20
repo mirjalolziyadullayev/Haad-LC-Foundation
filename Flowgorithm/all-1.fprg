@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-18 03:11:44 "/>
+        <attribute name="created" value="QVNVUztERVNLVE9QLTFVT0Y4OEg7MjAyMy0wOC0xODsiMDE6MzE6NTggIjsyNTYz"/>
+        <attribute name="edited" value="QVNVUztERVNLVE9QLTFVT0Y4OEg7MjAyMy0wOC0xODsiMDM6MTE6NDQgIjs0OzI2Njk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="Includes(&quot;Watson&quot;, &quot;w&quot;)" newline="True"/>
+        </body>
+    </function>
+    <function name="DecimalToBinary" type="String" variable="result">
+        <parameters>
+            <parameter name="num" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="result" type="String" array="False" size=""/>
+            <assign variable="result" expression="&quot;&quot;"/>
+            <while expression="num&gt;0">
+                <declare name="remain" type="Integer" array="False" size=""/>
+                <assign variable="remain" expression="num%2"/>
+                <assign variable="result" expression="remain&amp;result"/>
+                <assign variable="num" expression="num/2"/>
+            </while>
+        </body>
+    </function>
+    <function name="greeting" type="String" variable="result">
+        <parameters>
+            <parameter name="name" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="result" type="String" array="False" size=""/>
+            <assign variable="result" expression="&quot;Hello &quot;&amp;name"/>
+        </body>
+    </function>
+    <function name="Includes" type="Boolean" variable="yes">
+        <parameters>
+            <parameter name="text" type="String" array="False"/>
+            <parameter name="belgi" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="yes" type="Boolean" array="False" size=""/>
+            <assign variable="yes" expression="false"/>
+            <declare name="count" type="Integer" array="False" size=""/>
+            <assign variable="count" expression="0"/>
+            <while expression="count&lt;len(text)">
+                <if expression="Char(text, count)==belgi">
+                    <then>
+                        <assign variable="yes" expression="true"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="count" expression="count+1"/>
+            </while>
+        </body>
+    </function>
+    <function name="reverseString" type="String" variable="reversedName">
+        <parameters>
+            <parameter name="name" type="String" array="False"/>
+        </parameters>
+        <body>
+            <declare name="reversedName" type="String" array="False" size=""/>
+            <assign variable="reversedName" expression="&quot;&quot;"/>
+            <declare name="count" type="Integer" array="False" size=""/>
+            <assign variable="count" expression="0"/>
+            <while expression="count&lt;len(name)">
+                <assign variable="reversedName" expression="Char(name,count)&amp;reversedName"/>
+                <assign variable="count" expression="count+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
