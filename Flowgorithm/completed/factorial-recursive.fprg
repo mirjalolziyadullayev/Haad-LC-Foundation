@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-18 01:31:53 "/>
+        <attribute name="created" value="QVNVUztERVNLVE9QLTFVT0Y4OEg7MjAyMy0wOC0xODsiMDE6MTI6MTEgIjsyNTUx"/>
+        <attribute name="edited" value="QVNVUztERVNLVE9QLTFVT0Y4OEg7MjAyMy0wOC0xODsiMDE6MzE6NTMgIjsxOzI2NjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="factorialRecursive(5)" newline="True"/>
+        </body>
+    </function>
+    <function name="factorial" type="Integer" variable="result">
+        <parameters>
+            <parameter name="num" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="result" type="Integer" array="False" size=""/>
+            <declare name="count" type="Integer" array="False" size=""/>
+            <assign variable="count" expression="1"/>
+            <assign variable="result" expression="1"/>
+            <while expression="count&lt;=num">
+                <assign variable="result" expression="result*count"/>
+                <assign variable="count" expression="count+1"/>
+            </while>
+        </body>
+    </function>
+    <function name="factorialRecursive" type="Integer" variable="result">
+        <parameters>
+            <parameter name="num" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="result" type="Integer" array="False" size=""/>
+            <if expression="num=1">
+                <then>
+                    <assign variable="result" expression="1"/>
+                </then>
+                <else>
+                    <assign variable="result" expression="num*factorialRecursive(num-1)"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
