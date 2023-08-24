@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Person"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-24 08:48:44 PM"/>
+        <attribute name="created" value="UGVyc29uO0RFU0tUT1AtOTc4VUJRMzsyMDIzLTA4LTI0OzA3OjQ4OjMwIFBNOzI5NTI="/>
+        <attribute name="edited" value="UGVyc29uO0RFU0tUT1AtOTc4VUJRMzsyMDIzLTA4LTI0OzA4OjQ4OjQ0IFBNOzE7MzA2Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="arr" type="Integer" array="True" size="5"/>
+            <assign variable="arr[0]" expression="10"/>
+            <assign variable="arr[1]" expression="20"/>
+            <assign variable="arr[2]" expression="30"/>
+            <assign variable="arr[3]" expression="40"/>
+            <assign variable="arr[4]" expression="50"/>
+            <declare name="sum" type="Integer" array="False" size=""/>
+            <assign variable="sum" expression="0"/>
+            <declare name="count" type="Integer" array="False" size=""/>
+            <assign variable="count" expression="0"/>
+            <while expression="count &lt; 5">
+                <assign variable="sum" expression="arr[count] + sum"/>
+                <assign variable="count" expression="count + 1"/>
+            </while>
+            <output expression="sum" newline="True"/>
+        </body>
+    </function>
+    <function name="sumArray" type="None" variable="">
+        <parameters>
+            <parameter name="nums" type="Integer" array="True"/>
+        </parameters>
+        <body/>
+    </function>
+</flowgorithm>
