@@ -13,10 +13,10 @@ mov di, 0
 
 takrorla:  
 
-mov ax, [bx+di] 
+mov ah, [bx+di] 
 div si  
    
-mov [bp+di], al
+mov [bp+di], ah
 
 inc di 
 
@@ -24,8 +24,7 @@ inc di
 
 loop takrorla
 
-
 ret
 
-lst1 db 10, 40, 60, 30    
+lst1 db 2h, 4h, 6h, 8h   
 lst2 db 4 dup(?)
