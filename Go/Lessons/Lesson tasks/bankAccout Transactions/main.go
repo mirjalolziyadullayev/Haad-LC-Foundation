@@ -6,18 +6,19 @@ type bankAccount struct {
 	accountID float32
 	holderName string
 	accountBalance float64
+	transactions []int
 }
 func main() {
 
 	res := bankAccount{
 		accountID: 1000,
 		holderName: "Mirjalol",
-		accountBalance: 109999999,
+		accountBalance: 10,
 	}
 	res1:= bankAccount{
 		accountID: 1001,
 		holderName: "Habib",
-		accountBalance: 2099999233323232,
+		accountBalance: 20,
 	}
 
 	res.deposit(100)

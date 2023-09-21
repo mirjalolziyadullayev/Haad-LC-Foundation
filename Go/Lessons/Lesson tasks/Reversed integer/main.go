@@ -9,6 +9,7 @@ func main() {
 }
 
 func reversedInteger(chart[] int) (reversed[] int) {
+	
 	for i := len(chart)-1; i >= 0; i-- {
 		reversed = append(reversed, chart[i])
 	}

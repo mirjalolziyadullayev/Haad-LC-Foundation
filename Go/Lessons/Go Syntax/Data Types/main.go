@@ -33,7 +33,7 @@ package main
 // 		String - string value
 // 				
 // 				string byte = unit8 (for printing characters from ASCII)
-// 				string rune = unit32 (for printing characters from UTF-8)
+// 				string rune = unit16 (for printing characters from UTF-8)
 // 
 // -----------------------------------------------------------------------------------
 // 
