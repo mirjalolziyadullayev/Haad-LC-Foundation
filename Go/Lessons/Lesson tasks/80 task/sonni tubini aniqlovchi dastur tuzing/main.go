@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	son:= 29
+	son:= 13
 	count:= 1
 	var result bool
 
