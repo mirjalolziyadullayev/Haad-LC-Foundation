@@ -3,15 +3,15 @@ package main
 import "fmt"
 
 func main() {
- 	num :=[] int {1,2,3}
+ 	num :=[] int {1,2,3,5,6}
 	var arrtos string
 	var endindex int
 	for i := 0; i < len(num); i++ {
-		endindex++
+		
 		arrtos += fmt.Sprint(num[i])
+		endindex++
 	}
 
-	
 
-	fmt.Println(arrtos)
+	fmt.Println(fmt.Sprint(arrtos[:endindex-1])+string(arrtos[endindex-1]+1))
 }
