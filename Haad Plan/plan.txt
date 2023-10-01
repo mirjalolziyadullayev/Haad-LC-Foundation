@@ -1,12 +1,10 @@
-Intro
+1-lesson
 
-comparing
-
-what is emulator
-
-download and install emulator
-
-user interface of emulator
-
-what is com bin exe files
-
+What is Assembly?.
+Assembly with Intel 8086 microprocessor.
+What is Emu 8086?.
+Intel 8086 vs Emu 8086.
+Installing Emu 8086.
+Introducing Emu 8086.
+Templates of Emu 8086.
+Features of Emu 8086.
