@@ -3,18 +3,16 @@ package main
 import "fmt"
 
 func main() {
-	var num int
-	fmt.Scan(&num)
-	
-	res := DecimalToBinary(num)
-	fmt.Println(res)
+ 	fmt.Println(get(10, 10))
 }
-func DecimalToBinary(num int) string {
-	var res string 
-	for num > 0 {
-		flag := num % 2
-		res = fmt.Sprint(flag) + res
-		num = num / 2
-	}
+
+func get(decimal int, base int) (res string) {
+ 	letters := "0123456789abcdefghijklmnopqrstuwxyz"
+
+	for decimal > 0 {
+
+	res = string(letters[decimal%base]) + res	
+	decimal = decimal / base
+}
 	return res
 }
