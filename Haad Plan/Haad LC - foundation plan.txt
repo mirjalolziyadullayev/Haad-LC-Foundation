@@ -2,12 +2,14 @@ Computer Science
 
 1. What is Computer Science?
 2. MIcroprocessor and Microcontroller
-3. What is Computer? (Architectures)
-4. Counting Systems (Binary) (Octal) (Decimal) (Hexadecimal)
-5. What is ASCII?
-6. What is Algorithm?
-7. What is Programming language?
-8. What is Flow chart?
+3. what is CPU,RAM,ROM?
+4. What is Computer? (Architectures)
+5. Counting Systems (Binary) (Octal) (Decimal) (Hexadecimal)
+6. What is ASCII?
+7. What is Algorithm?
+8. What is Programming language?
+9. Computing steps
+9. What is Flow chart?
 
 Flowgorithm
 
@@ -32,4 +34,13 @@ Flowgorithm
 
 Assembly
 
-1. 
+1. What is Assembly?
+2. What is intel 8086
+3. Why we need to use assembly with Intel 8086
+3. How intel 8086 works?
+5. What is Emu8086?
+6. Intel 8086's Scheme
+7. Intel 8086 Execution Unit (EU) and Bus Interface Unit (BIU)
+8. Intel 8086's Registers
+9. Intel 8086's Segments
+10. 
