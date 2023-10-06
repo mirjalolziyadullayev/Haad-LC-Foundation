@@ -1,0 +1,35 @@
+Computer Science
+
+1. What is Computer Science?
+2. MIcroprocessor and Microcontroller
+3. What is Computer? (Architectures)
+4. Counting Systems (Binary) (Octal) (Decimal) (Hexadecimal)
+5. What is ASCII?
+6. What is Algorithm?
+7. What is Programming language?
+8. What is Flow chart?
+
+Flowgorithm
+
+1. What is flowgoritm?
+2. Figures of Flowgorithm 
+3. Data Types
+4. Operators
+5. What is variable?
+6. What is array?
+7. What is Constant
+8. Declare and Assign
+9. What is Comment?
+10. Input
+11. Output
+12. if
+13. What is Loop?
+14. for loop
+15. do loop
+16. while loop
+17. Function
+18. Call
+
+Assembly
+
+1. 
