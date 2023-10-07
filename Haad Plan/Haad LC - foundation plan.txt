@@ -1,7 +1,7 @@
 Computer Science
 
 1. What is Computer Science?
-2. MIcroprocessor and Microcontroller
+2. Microprocessor and Microcontroller
 3. what is CPU,RAM,ROM?
 4. What is Computer? (Architectures)
 5. Counting Systems (Binary) (Octal) (Decimal) (Hexadecimal)
