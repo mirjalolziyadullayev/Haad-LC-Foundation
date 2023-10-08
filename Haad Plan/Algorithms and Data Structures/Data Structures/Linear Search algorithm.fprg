@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Person"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-07 05:24:46 "/>
+        <attribute name="created" value="UGVyc29uO0RFU0tUT1AtSlJHNFE4STsyMDIzLTEwLTA3OyIwNDo1NTozMSAiOzI4OTE="/>
+        <attribute name="edited" value="UGVyc29uO0RFU0tUT1AtSlJHNFE4STsyMDIzLTEwLTA3OyIwNToyNDo0NiAiOzE7MzAwMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="array" type="Integer" array="True" size="5"/>
+            <assign variable="array[0]" expression="1"/>
+            <assign variable="array[1]" expression="2"/>
+            <assign variable="array[2]" expression="3"/>
+            <assign variable="array[3]" expression="4"/>
+            <assign variable="array[4]" expression="5"/>
+            <declare name="need" type="Integer" array="False" size=""/>
+            <assign variable="need" expression="5"/>
+            <declare name="index" type="Integer" array="False" size=""/>
+            <assign variable="index" expression="0"/>
+            <while expression="index &lt; Size(array)">
+                <if expression="need == array[index]">
+                    <then>
+                        <output expression="array[index] &amp; &quot; &quot; &amp; index" newline="True"/>
+                        <assign variable="index" expression="Size(array)"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;none&quot;" newline="True"/>
+                    </else>
+                </if>
+                <assign variable="index" expression="index+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

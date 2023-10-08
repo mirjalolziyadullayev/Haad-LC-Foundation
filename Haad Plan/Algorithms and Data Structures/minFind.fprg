@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Person"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-08 04:42:28 "/>
+        <attribute name="created" value="UGVyc29uO0RFU0tUT1AtSlJHNFE4STsyMDIzLTEwLTA4OyIwMTowOToxMiAiOzI4ODc="/>
+        <attribute name="edited" value="UGVyc29uO0RFU0tUT1AtSlJHNFE4STsyMDIzLTEwLTA4OyIwNDo0MjoyOCAiOzI7MzAwMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="array" type="Integer" array="True" size="5"/>
+            <assign variable="array[0]" expression="0"/>
+            <assign variable="array[1]" expression="1"/>
+            <assign variable="array[2]" expression="5"/>
+            <assign variable="array[3]" expression="3"/>
+            <assign variable="array[4]" expression="4"/>
+            <declare name="big" type="Integer" array="False" size=""/>
+            <assign variable="big" expression="1"/>
+            <declare name="count" type="Integer" array="False" size=""/>
+            <assign variable="count" expression="0"/>
+            <while expression="count &lt; Size(array)">
+                <if expression="big &gt; array[count]">
+                    <then>
+                        <assign variable="big" expression="array[count]"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="count" expression="count+1"/>
+            </while>
+            <output expression="big" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
