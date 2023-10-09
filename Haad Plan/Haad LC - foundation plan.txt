@@ -1,46 +1,59 @@
-Computer Science
+•	Computer Science
+1.	What is Computer Science?
+2.	What is CPU, RAM, Data Memory¬¬¬¬¬¬?
+3.	Microprocessor and Microcontroller
+4.	What is Computer? (Architectures of Computer)
+5.	Counting Systems (Binary) (Octal) (Decimal) (Hexadecimal)
+6.	What is BIT?
+7.	Bit o’lchov birliklari
+8.	Malumot o’lchov birliklari
+9.	What is ASCII? 
+10.	What is Programming language?
+11.	Computing steps
+12.	What is Algorithm?
+13.	What is Flow chart?
 
-1. What is Computer Science?
-2. Microprocessor and Microcontroller
-3. what is CPU,RAM,ROM?
-4. What is Computer? (Architectures)
-5. Counting Systems (Binary) (Octal) (Decimal) (Hexadecimal)
-6. What is ASCII?
-7. What is Algorithm?
-8. What is Programming language?
-9. Computing steps
-9. What is Flow chart?
+•	Algorithms on Flowgorithm
+1.	What is Flowgorithm?
+2.	Data Structures
+3.	Array DS
+4.	Linked list DS
+5.	Stack DS
+6.	Queue DS
+7.	Graph DS
+8.	Tree DS
+9.	Hash DS
+10.	Heap DS (Min Heap, Max Heap)
+11.	Data Types
+12.	Operators
+13.	What is Variable?
+14.	What is Array?
+15.	What is Constant?
+16.	Declaring and Assignment
+17.	What is comment?
+18.	Input 
+19.	Output
+20.	If
+21.	What is Loop?
+22.	For loop
+23.	Do loop
+24.	While loop
+25.	Function
+26.	Call
 
-Flowgorithm
-
-1. What is flowgoritm?
-2. Figures of Flowgorithm 
-3. Data Types
-4. Operators
-5. What is variable?
-6. What is array?
-7. What is Constant
-8. Declare and Assign
-9. What is Comment?
-10. Input
-11. Output
-12. if
-13. What is Loop?
-14. for loop
-15. do loop
-16. while loop
-17. Function
-18. Call
-
-Assembly
-
-1. What is Assembly?
-2. What is intel 8086
-3. Why we need to use assembly with Intel 8086
-3. How intel 8086 works?
-5. What is Emu8086?
-6. Intel 8086's Scheme
-7. Intel 8086 Execution Unit (EU) and Bus Interface Unit (BIU)
-8. Intel 8086's Registers
-9. Intel 8086's Segments
-10. 
+•	Assembly with Intel 8086
+1.	What is Assembly¬¬
+2.	What is Intel 8086
+3.	Why we need to use assembly with Intel 8086
+4.	How Intel 8086 works?
+5.	Functional Block Diagram of Intel 8086 Microprocessor
+6.	What is Emu8086
+7.	Intel 8086’s Registers
+8.	Intel 8086’s General Purpose Registers
+9.	¬¬Intel 8086’s Segment Registers
+10.	MOV instruction
+11.	Declaring variable and types of variables
+12.	What is List (Array)?
+13.	What is offset?
+14.	LEA Instruction
+15.	
